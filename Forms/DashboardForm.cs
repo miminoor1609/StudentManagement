@@ -37,7 +37,7 @@ namespace studentManagementSyatem.Forms
                     MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
         }
-
+        //  -----------------------shows statistics and navigation-------------
         private void btnStudent_Click(object sender, EventArgs e)
         {
             StudentForm student = new StudentForm();
