@@ -28,7 +28,7 @@ namespace studentManagementSyatem.Forms
             }
            
         }
-
+        // Student Form - CRUD operations for managing students
         private void btnAdd_Click(object sender, EventArgs e)
         {
             if (string.IsNullOrWhiteSpace(txtStudentName.Text))
