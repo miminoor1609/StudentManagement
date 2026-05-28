@@ -23,7 +23,7 @@ namespace studentManagementSyatem.Database
             // Create Default admin user 
             CreateDefaultAdmin();
         }
-
+        //--------------------  creates tables and default admin---------------
         private static void CreateTables()
         {
             using (var conn = DbConnection.GetConnection())
