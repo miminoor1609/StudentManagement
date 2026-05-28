@@ -26,7 +26,7 @@ namespace studentManagementSyatem.Forms
                 dataGridView1.Rows.Add( a.StudentName, a.Date, a.Status);
             }
         }
-
+        // Attendance Form - CRUD operations for managing attendance
         private void btnAdd_Click(object sender, EventArgs e)
         {
             if (string.IsNullOrWhiteSpace(txtStudent.Text))
