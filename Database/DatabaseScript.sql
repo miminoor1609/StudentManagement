@@ -1,0 +1,7 @@
+CREATE TABLE Students (
+    Id INT PRIMARY KEY IDENTITY(1,1),
+    StudentName NVARCHAR(100) NOT NULL,
+    RollNumber NVARCHAR(50) NOT NULL,
+    ClassName NVARCHAR(50) NOT NULL,
+    Phone NVARCHAR(20) NOT NULL
+);
