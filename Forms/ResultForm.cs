@@ -23,9 +23,10 @@ namespace studentManagementSyatem.Forms
             var results = _repository.GetAllResults();
             foreach (var r in results)
             {
-                dataGridView1.Rows.Add( r.StudentName, r.Subject, r.Marks, r.Grade);
+                dataGridView1.Rows.Add(r.StudentName, r.Subject, r.Marks, r.Grade);
             }
         }
+        // Result Form - CRUD operations for managing student results
 
         private void btnAdd_Click(object sender, EventArgs e)
         {
