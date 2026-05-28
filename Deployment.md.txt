@@ -1,0 +1,20 @@
+# Deployment Guide - Student Management System
+
+## System Requirements
+- OS: Windows 10 or above
+- .NET Framework 4.7.2
+- Visual Studio 2019 or above
+
+## How to Run
+1. Extract the ZIP file
+2. Open studentManagementSyatem.sln in Visual Studio
+3. Press Ctrl+F5 to run
+
+## Database
+- Database is SQLite (sms.db)
+- It is created automatically on first run
+- No manual setup required
+
+## Default Login
+- Username: admin
+- Password: admin123
