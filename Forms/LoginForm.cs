@@ -14,7 +14,7 @@ namespace studentManagementSyatem.Forms
             InitializeComponent();
             _userRepository = new UserRepository();
         }
-
+      //  -----------------user authentication with BCrypt------------
         private void btnLogin_Click(object sender, EventArgs e)
         {
             // Validation
